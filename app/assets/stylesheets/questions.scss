@@ -1,0 +1,25 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$backgroundblue: #b8dff0;
+$darkblue: #1a2c5b;
+$heavypink: #ef3f61;
+
+.card {
+  background-color: $darkblue;
+  border-left: 4px solid $heavypink;
+  color: white;
+  width: 400px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-pink {
+  background-color: $heavypink;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 2px;
+  width: 100px;
+}

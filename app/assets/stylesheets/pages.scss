@@ -1,0 +1,31 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$backgroundblue: #b8dff0;
+$darkblue: #1a2c5b;
+$heavypink: #ef3f61;
+
+body {
+ font-family: Helvetica;
+ color: $darkblue;
+ background-color: $backgroundblue;
+}
+
+a {
+  text-decoration: none;
+}
+
+input[type=text] {
+  background-color: $backgroundblue;
+  border-width: 0;
+  border-bottom: 2px solid $heavypink;
+  width: 200px;
+  padding: 4px;
+
+}
+
+.container {
+  width: 500px;
+  width: 0 auto;
+  margin: 5px 100px
+}
